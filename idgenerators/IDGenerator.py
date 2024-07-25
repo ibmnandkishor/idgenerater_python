@@ -6,7 +6,7 @@ font = ImageFont.truetype('arial.ttf', size=45)
 import random
 import os
 import datetime
-import qrcode
+import qrcode 
 
 os.system("ID CARD Generator")
 
