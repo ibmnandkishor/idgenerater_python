@@ -11,7 +11,7 @@ import qrcode
 os.system("ID CARD Generator")
 
 d_date = datetime.datetime.now()
-reg_format_date = d_date.strftime("  %d-%m-%Y\t\t\t\t\t ID CARD Generator\t\t\t\t\t  %I:%M:%S %p")
+reg_format_date = d_date.strftime("  %d-%m-%Y\t\t\t\t\t ID CARD Generator\t\t\t\t\t  %I:%M:%S %p") 
 print('------------------------------------------------------------------------------------------------')
 print(reg_format_date)
 print('------------------------------------------------------------------------------------------------')
